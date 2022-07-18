@@ -6,6 +6,13 @@
     url("./assests/fonts/Agustina.woff") format("woff");
 }
 @font-face {
+  font-family: "Pacifico Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Pacifico Regular"),
+    url("./assests/fonts/Pacifico-Regular.ttf") format("woff");
+}
+@font-face {
   font-family: "Montserrat";
   src: local("Montserrat"),
     url("./assests/fonts/Montserrat-Regular.ttf") format("woff");
