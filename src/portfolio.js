@@ -366,6 +366,18 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
+      title: " Pittsburg State University (PSU)",
+      subtitle: "MSc in STEM College Teaching",
+      logo_path: "psu_logo.png",
+      alt_name: "AIT Thailand",
+      duration: "2023 - Present",
+      descriptions: [
+        "⚡ I have studied advanced teaching skills for Graduate level cources to teach STEM college skills.",
+        "⚡ Apart from this, I have done courses on Technology and Society, Research Methodologies, Leadership skills and Have done in classroom teaching for graduate students.",
+      ],
+      website_link: "https://www.pittstate.edu/",
+    },
+    {
       title: " Asian Institute of Technology (AIT)",
       subtitle: "M.Eng in Computer Engineering",
       logo_path: "ait_logo.png",
@@ -518,25 +530,36 @@ const experience = {
       title: "Work",
       experiences: [
         {
+          title: "WRITING CONSULTANT",
+          company: "The Writing Center@PSU",
+          company_url: "https://www.pittstate.edu/office/writing-center/",
+          logo_path: "writingcenter.png",
+          duration: "Feb 2023 - Present",
+          location: "Pittsburg, Kansas, USA",
+          description:
+            "My main role is to act as a bridge between international students and the Writing Center. I am working as a conversation partner in the Writing center. I am also developing new programs to make the writing center for international students. Few other responsibilities as the writing center consultant are reviewing the books and asses the difficulty.",
+          color: "red",
+        },
+        {
           title: "Mobile Application Developer",
           company: "PopcornApps.com",
           company_url: "https://www.popcornapps.com/",
           logo_path: "popcornapps.png",
-          duration: "May 2021 - PRESENT",
+          duration: "May 2021 - Nov 2022",
           location: "Hyderabad, Telangana",
           description:
-            "I am working on Hybrid Mobile application products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
-          color: "#ffffff",
+            "Worked from the first line of the project to the end of the project, involved in every state of the application process. Developed pixel-perfect mobile application using React Native technology. During the process of development, I have worked on components like Authentication, Bio-metric Authorization. Video’s, Offline video’s and animations, worked on hardware components such as NFC.",
+          color: "blue",
         },
         // {
-        //   title: "Android and ML Developer",
-        //   company: "Muffito Incorporation",
-        //   company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-        //   logo_path: "muffito_logo.png",
+        //   title: "FULL-STACK DEVELOPER",
+        //   company: "STARTUP",
+        //   company_url: "#",
+        //   logo_path: "",
         //   duration: "May 2018 - Oct 2018",
         //   location: "Pune, Maharashtra",
         //   description:
-        //     "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
+        //     "Developed two React Native mobile applications from the scratch for a COVID-19 tracking system for Nepal. One application is User-specific and the other is for Business owners. Developed back-end system with Python Flask and implemented REST-full API features.",
         //   color: "#9b1578",
         // },
         // {
@@ -676,7 +699,7 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle: "Madeenaguda, Hyderabad, Dist.-Ranga Reddy, Telangana - 500050",
+    subtitle: "Pittsburg, Kansas, USA- 66762",
     avatar_image_path: "address_image.svg",
     location_map_link: portfolioConstants.GOODLEMAPS_LINK,
   },
